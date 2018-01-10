@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Data", "03_Data", "{08D87EFA-8FF6-4B12-A785-CBF02467151A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiskyInventory.Data", "WhiskyInventory.Data\WhiskyInventory.Data.csproj", "{77685710-46AB-4FB7-88B5-DFC14976D6D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Host", "01_Host", "{F3B41BF1-A2B4-4584-91EB-C475178ADAD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiskyInventory.Api", "WhiskyInventory.Api\WhiskyInventory.Api.csproj", "{51D0A1B4-4942-4363-9D67-CEDA8B173A0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Business", "02_Business", "{82D34543-DB80-4B15-B620-BE88A995E140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiskyInventory.Business", "WhiskyInventory.Business\WhiskyInventory.Business.csproj", "{09613180-1889-48D1-9F11-A2FF4B7CC287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77685710-46AB-4FB7-88B5-DFC14976D6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77685710-46AB-4FB7-88B5-DFC14976D6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77685710-46AB-4FB7-88B5-DFC14976D6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77685710-46AB-4FB7-88B5-DFC14976D6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D0A1B4-4942-4363-9D67-CEDA8B173A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D0A1B4-4942-4363-9D67-CEDA8B173A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D0A1B4-4942-4363-9D67-CEDA8B173A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D0A1B4-4942-4363-9D67-CEDA8B173A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09613180-1889-48D1-9F11-A2FF4B7CC287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09613180-1889-48D1-9F11-A2FF4B7CC287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09613180-1889-48D1-9F11-A2FF4B7CC287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09613180-1889-48D1-9F11-A2FF4B7CC287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77685710-46AB-4FB7-88B5-DFC14976D6D5} = {08D87EFA-8FF6-4B12-A785-CBF02467151A}
+		{51D0A1B4-4942-4363-9D67-CEDA8B173A0C} = {F3B41BF1-A2B4-4584-91EB-C475178ADAD1}
+		{09613180-1889-48D1-9F11-A2FF4B7CC287} = {82D34543-DB80-4B15-B620-BE88A995E140}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5E37359-24E0-4D03-9AA9-FA004CA7598C}
+	EndGlobalSection
+EndGlobal

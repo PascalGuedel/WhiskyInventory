@@ -1,0 +1,2 @@
+﻿PackageManagerConsole:
+Scaffold-DbContext "Server=whiskystore.database.windows.net;Database=WhiskyStore;user id=whiskystore_admin;password=Edinburgh2017" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

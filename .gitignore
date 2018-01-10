@@ -3,3 +3,9 @@
 ################################################################################
 
 /WhiskyInventoryApp/WhiskyInventory.Data/obj
+/WhiskyInventoryApp/WhiskyInventory.Data/bin/Debug/netcoreapp2.0
+/WhiskyInventoryApp/WhiskyInventory.Api/bin/Debug/netcoreapp2.0
+/WhiskyInventoryApp/WhiskyInventory.Api/obj
+/WhiskyInventoryApp/WhiskyInventory.Business/bin/Debug/netcoreapp2.0
+/WhiskyInventoryApp/WhiskyInventory.Business/obj
+/WhiskyInventoryApp/.vs/WhiskyInventoryApp/v15
