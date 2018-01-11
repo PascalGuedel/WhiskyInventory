@@ -10,7 +10,7 @@ namespace WhiskyInventory.Data.Models
             Inventory = new HashSet<Inventory>();
         }
 
-        public int Id { get; set; } 
+        public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public DateTimeOffset Timestamp { get; set; }
